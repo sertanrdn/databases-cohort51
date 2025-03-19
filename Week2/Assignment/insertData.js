@@ -55,7 +55,7 @@ async function insertData() {
     `;
 
     const insertAuthorPaperData = `
-        INSERT INTO author_papers (author_id, paper_id) VALUES
+        INSERT INTO author_paper (author_id, paper_id) VALUES
         (1, 1), (2, 2), (3, 3), (4, 4), (5, 5),
         (1, 6), (2, 7), (3, 8), (4, 9), (5, 10),
         (6, 11), (7, 12), (8, 13), (9, 14), (10, 15),
