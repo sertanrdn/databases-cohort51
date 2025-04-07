@@ -30,4 +30,3 @@ async function getPopulation(name, code) {
 
 getPopulation('Netherlands', 'NLD');
 
-getPopulation("' OR '1'='1", "' OR '1'='1");
